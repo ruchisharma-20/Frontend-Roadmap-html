@@ -1,0 +1,23 @@
+h1{
+    color: blue;
+}
+
+p:hover{
+     color: blueviolet;
+     font-size: 25px;
+     background-color: antiquewhite;
+}
+ ul li{
+float: left;
+list-style-type: none;
+margin: 6px;
+padding: 7px;
+font-size: 18px;
+color: orange;
+
+}
+
+li:hover{
+    color: blue;
+    cursor: pointer;
+}

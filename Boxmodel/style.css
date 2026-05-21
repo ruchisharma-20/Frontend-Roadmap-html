@@ -1,0 +1,58 @@
+
+.parent{
+    /* background-color: brown; */
+}
+.lorem{
+    background-color: aqua;
+    max-width: 50%;
+    padding:6px;        
+border: 4px solid teal;
+margin: 4px;
+border-radius: 10px;
+
+}
+.two{
+background-color:#d77259;
+    width: 250px;
+    height: 250px;
+    padding:6px;        
+border: 5px solid #d77259;
+margin: 6px;
+border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.imgruchi{
+    width: 130%;
+   margin-top: -43px;
+    margin-left: -112px;
+}
+p{
+    background-color: hotpink;
+    /* width: 200px;
+    height: 100px; */
+    box-sizing: border-box;
+    padding: 23px;
+    margin: 6px;
+
+}
+
+span{
+    display: inline-block;
+    background-color: darkcyan;
+    font-size: 19px;
+    padding-top: 12px;
+    width: 120px;
+    height: 36px;
+    margin: 7px;
+    border: 5px solid #d77259;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+span:hover{
+    color:blue;
+    font-size: 23px;
+}

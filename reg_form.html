@@ -2,91 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Profile</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 600px;
-      margin: 40px auto;
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      text-align: center;
-      color: #333;
-    }
-    .skills ul {
-      list-style-type: square;
-      padding-left: 20px;
-    }
-    .skills li {
-      margin: 5px 0;
-    }
-    form {
-      margin-top: 20px;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin: 8px 0;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-    button {
-      background: #007bff;
-      color: white;
-      border: none;
-      padding: 10px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #0056b3;
-    }
-    .message {
-      color: green;
-      margin-top: 10px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Html Form</title>
 </head>
 <body>
+  <h1>Html Form</h1>
+  <h2>Login Form</h2>
+  <form method="post" action="/">
+    <p>
+    <div><label for="name">Name:</label></div>
 
-<div class="container">
-  <h1>Ruchi Sharma</h1>
+    <input type="text" id="name" placeholder="Name" name="name">
+</p>
+    <p><div><label for="pwd">Password:</label></div>
+        <input type="password" id="pwd" placeholder="Passowrd" name="pwd"></p>
+        <p><div><label for="email">Email: </label></div>
 
-  <div class="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Drupal</li>
-    </ul>
-  </div>
+            <input type="email" id="email" placeholder="Email Id" name="email"></p>
+           <p> <div> <input type="reset" name="reset">&nbsp;<input type="submit" name="submit"></div></p>
+               
 
-  <div class="contact">
-    <h2>Contact Me</h2>
-    <form id="contactForm">
-      <input type="text" id="name" placeholder="Your Name" required>
-      <input type="email" id="email" placeholder="Your Email" required>
-      <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-    <div class="message" id="responseMsg"></div>
-  </div>
-</div>
 
-<script>
-  document.getElementById("contactForm").addEventListener("submit", function(e) {
-    e.preventDefault();
-    document.getElementById("responseMsg").innerText = "Message sent successfully!";
-    this.reset();
-  });
-</script>
+
+  </form>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.main:hover{
+ color: blue;
+}
+
+p{
+    color: rgb(160, 146, 95);
+    font-size: 18px;
+}
+h2{
+    color:rgb(0, 0, 0);
+
+}
+li{
+     color: rgb(160, 95, 101);
+     font-size: 25px;
+     cursor: pointer;
+     list-style-type: none;
+}
+
+li { float: left;
+       margin: 3px; 
+       padding: 4px;
+       display: block;
+}
+.html{
+    color: red;
+}
+.css{
+color: blue;
+}
+.react{
+ color:skyblue;
+}
+.js{
+ color: rgb(6, 33, 33);
+}
+
+[ruchi]{
+    background-color: bisque;
+}
+
+.html:hover{
+background-color: rgb(4, 75, 78);    
+}
+
+.css:hover{
+    background-color:rgb(15, 221, 221)
+}
+
+.react:hover{
+
+    color: brown;
+    font-size: 30px;
+    background-color: aquamarine;
+}
