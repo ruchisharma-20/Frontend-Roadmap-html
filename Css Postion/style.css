@@ -1,0 +1,23 @@
+div{
+    background-color: burlywood;
+    position: relative;
+    /* top: 6px; */
+    inset: 6px;
+}
+
+.css{
+    background-color: aqua;
+    position:absolute;
+    left: 119px;}
+
+    .rect{
+        position: static;
+        background-color: blue;
+        bottom: -1px;
+    }
+
+    header{
+        background-color: #FFEB3B;
+        position: sticky;
+        top:3px
+    }

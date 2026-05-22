@@ -4,24 +4,26 @@ font-family: cursive;}
 
 .qr-code{
     background-color:white;
-    height: 470px;
-    width: 302px;
+    height: 446px;
+    width: 100%;
+    max-width: 302px;
     position: fixed;
     margin: auto;
     inset: 0;
-border-radius: 16px;
+border-radius: 25px;
 }
 
 img{
-width: 243px;
-    height: 260px;
-    margin: 28px;
+max-width: 227px;
+    height: 227px;
+    width: 100%;
+    margin: 37px;
     border-radius: 16px;
 }
 h2{
 
     font-size: 23px;
-    margin: 7px;
+    margin-top:-12px;
     text-align: center;
     color: #1f3251;
 }
@@ -29,4 +31,6 @@ p{
     display: inline-block;
     font-size: 14px;
     text-align: center;
+    color: gray;
+    margin: 6px;
 }
