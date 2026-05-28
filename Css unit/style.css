@@ -1,0 +1,47 @@
+.section{
+
+    max-width: 20%;
+    background-color: aqua;
+    height: 40vh;
+    border  :23px solid blue;
+   /* -webkit-print-color-adjust: exact; */
+}
+
+/* @media print {
+    
+    h2{
+        font-size: 35px;
+        color: red;
+    }
+    .section{
+
+            background-color:brown;
+             border  :3px solid rgb(51, 153, 59);
+
+
+    }
+} */
+
+@media (max-width: 875px) or (max-width:912px) {
+    
+    .section{
+
+            background-color:tan;
+                border  :23px solid rgb(51, 153, 59);
+            
+
+    }
+}
+
+
+@media (max-width:1024px) or (max-width:1280px) {
+    .section{
+
+            background-color:orange;
+                border  :23px solid rebeccapurple;
+
+
+    }
+    
+}
+

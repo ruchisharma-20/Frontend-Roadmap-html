@@ -1,11 +1,16 @@
+
+
 h1{
     color: blue;
 }
 
-p:hover{
+.p1:hover{
      color: blueviolet;
      font-size: 25px;
      background-color: antiquewhite;
+}
+header{
+    display: inline-block ;
 }
  ul li{
 float: left;
@@ -20,4 +25,44 @@ color: orange;
 li:hover{
     color: blue;
     cursor: pointer;
+}
+
+.parent{
+    height: 40vh;
+    display: flex;
+     justify-content: center;     
+     /* align-items: center;   */
+justify-content: space-between; 
+    /* flex-direction: row-reverse; */
+}
+
+.parent span{
+  
+    text-align: center;
+    width: 220px;
+    background-color: aqua;
+}
+
+span:hover{
+
+    background-color: blanchedalmond;
+}
+
+.parent p{
+    width: 380px;
+        background-color: blueviolet;
+    text-align: center;
+
+}
+
+.parent a{
+    text-align: center;
+    width: 255px;
+    background-color: bisque ;
+        /* flex-grow: 1; */
+
+}
+
+a:hover{
+    background-color: cornflowerblue;
 }

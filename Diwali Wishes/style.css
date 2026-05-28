@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    /* background-color: red; */
+    font-family: "Salsa", cursive;
+}
+.main_section {
+    /* background-color:  #F99501; */
+    background: url("images/hero_wallpaper.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jhalar {
+    width: 180px;
+    margin-bottom: -5em;
+}
+
+.audio-container {
+    background-color: #fbd8a4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    padding-left: 20px;
+    border-radius: 32px;
+}
+.paragraph-audio {
+    margin-left: 17em;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #fbd8a4;
+}
+.main_section p {
+    font-size: 42px;
+    max-width: 398px;
+}
+
+.deepak1,
+.deepak2 {
+    max-width: 380px;
+}
+
+@media (max-width: 857px) {
+    .main_section {
+        background: url("images/hero_wallpaper.png");
+    }
+
+    .jhalar {
+        margin-bottom: -1em;
+    }
+
+    .paragraph-audio {
+        margin-left: 2em;
+    }
+    .main_section p {
+        font-size: 20px;
+        max-width: 250px;
+    }
+    .deepak2,
+    .music-icon,
+    .sou-music {
+        display: none;
+    }
+
+    .deepak1 {
+        display: block;
+        margin-left: auto;
+        /* max-width: 267px;*/
+    }
+}
+
+.laxmi-section {
+    background-color: #f99501;
+    padding-block: 1em;
+    padding-inline: 1rem;
+}
+
+.laxmi-img {
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+}
+.horizontal-line {
+    height: 2px;
+    background-color: #fbd8a4;
+    width: 468px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #fbd8a4;
+    border-radius: 100%;
+    flex-shrink: 0;
+}
+
+.horizontal-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    gap: 12px;
+    margin-bottom: 3em;
+}
+
+.laxmi-contnet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Style Script;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.little_girl_section, .laxmi-ganesh-section{
+
+  background-color: #f99501;
+    padding-block: 1em;
+    padding-inline: 1rem;
+}
+
+.girl_cotnent_left{
+
+  background-color: whitesmoke;
+  width: 100%;
+  max-width: 624px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 3%;
+}
+
+
+.paragraph_girl{
+  font-family: Salsa;
+  font-size: 28px;
+  line-height: 100%;
+  /* max-width: 777px;
+  width: 100%; */
+  height: 173px;
+  margin-bottom:5em;
+  margin-left: 2em;
+}
+
+
+
+.liitle_girl_img{
+
+      max-width: 520px;
+    height: 576px;
+    position: relative;
+    margin-right: -260px;
+}
+
+.girl_divider{
+
+  padding-top: 7em;
+}
+
+@media (max-width:874px) {
+  
+
+  .girl_cotnent_left{
+    max-width: 444px;
+    height: 360px;
+    margin-top: 4em;
+  }
+
+  .paragraph_girl{
+
+    font-size: 23px;
+  }
+  .liitle_girl_img{
+
+    max-width: 200px;
+    height: 291px;
+    position: relative;
+    margin-right: -100px;
+
+  }
+
+ .laxmi-maa , .ganesh{ 
+
+  max-width: 280px;
+  }
+}
+
+
+.gamesh-laxmi-img{
+
+  background-color: whitesmoke;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 3%;
+}
+
+.laxmi-maa , .ganesh{
+
+  width: 406px;
+}
+
+
+.span1 {
+
+  font-size: 23px;
+  font-family: salsa;
+padding: 2em;
+display: inline-block;
+margin-left: 5em;
+}
+
+.span2{
+  font-size: 55px;
+  font-family: Style Script;
+  display: inline-block;
+margin-left:2em;
+}
